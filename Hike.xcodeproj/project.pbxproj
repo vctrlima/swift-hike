@@ -7,43 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D981DC002B50A41F00C0B6AC /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D981DBFF2B50A41F00C0B6AC /* CustomButtonView.swift */; };
+		D981DC022B50A80700C0B6AC /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D981DC012B50A80700C0B6AC /* ButtonStyle.swift */; };
+		D981DC042B50ABC100C0B6AC /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D981DC032B50ABC100C0B6AC /* CustomCircleView.swift */; };
+		D981DC062B50AD7500C0B6AC /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D981DC052B50AD7500C0B6AC /* MotionAnimationView.swift */; };
+		D981DC092B50B21B00C0B6AC /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D981DC082B50B21B00C0B6AC /* SettingsView.swift */; };
+		D981DC0B2B50B94600C0B6AC /* CustomListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D981DC0A2B50B94600C0B6AC /* CustomListRowView.swift */; };
 		D9AC8B662B4F55C000A2F19E /* HikeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AC8B652B4F55C000A2F19E /* HikeApp.swift */; };
 		D9AC8B682B4F55C000A2F19E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AC8B672B4F55C000A2F19E /* ContentView.swift */; };
 		D9AC8B6A2B4F55C200A2F19E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9AC8B692B4F55C200A2F19E /* Assets.xcassets */; };
 		D9AC8B6D2B4F55C200A2F19E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9AC8B6C2B4F55C200A2F19E /* Preview Assets.xcassets */; };
-		D9AC8B772B4F55C200A2F19E /* HikeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AC8B762B4F55C200A2F19E /* HikeTests.swift */; };
-		D9AC8B812B4F55C200A2F19E /* HikeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AC8B802B4F55C200A2F19E /* HikeUITests.swift */; };
-		D9AC8B832B4F55C200A2F19E /* HikeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AC8B822B4F55C200A2F19E /* HikeUITestsLaunchTests.swift */; };
+		D9AC8B902B4F75E400A2F19E /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AC8B8F2B4F75E400A2F19E /* CardView.swift */; };
+		D9AC8B932B4F775C00A2F19E /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AC8B922B4F775C00A2F19E /* CustomBackgroundView.swift */; };
+		D9AC8B962B4F7B0300A2F19E /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AC8B952B4F7B0300A2F19E /* ColorExtension.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		D9AC8B732B4F55C200A2F19E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D9AC8B5A2B4F55C000A2F19E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D9AC8B612B4F55C000A2F19E;
-			remoteInfo = Hike;
-		};
-		D9AC8B7D2B4F55C200A2F19E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D9AC8B5A2B4F55C000A2F19E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D9AC8B612B4F55C000A2F19E;
-			remoteInfo = Hike;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		D981DBFF2B50A41F00C0B6AC /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
+		D981DC012B50A80700C0B6AC /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
+		D981DC032B50ABC100C0B6AC /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
+		D981DC052B50AD7500C0B6AC /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
+		D981DC082B50B21B00C0B6AC /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		D981DC0A2B50B94600C0B6AC /* CustomListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomListRowView.swift; sourceTree = "<group>"; };
 		D9AC8B622B4F55C000A2F19E /* Hike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9AC8B652B4F55C000A2F19E /* HikeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeApp.swift; sourceTree = "<group>"; };
 		D9AC8B672B4F55C000A2F19E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D9AC8B692B4F55C200A2F19E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9AC8B6C2B4F55C200A2F19E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D9AC8B722B4F55C200A2F19E /* HikeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HikeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9AC8B762B4F55C200A2F19E /* HikeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeTests.swift; sourceTree = "<group>"; };
-		D9AC8B7C2B4F55C200A2F19E /* HikeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HikeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9AC8B802B4F55C200A2F19E /* HikeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeUITests.swift; sourceTree = "<group>"; };
-		D9AC8B822B4F55C200A2F19E /* HikeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D9AC8B8F2B4F75E400A2F19E /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		D9AC8B922B4F775C00A2F19E /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
+		D9AC8B952B4F7B0300A2F19E /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,29 +47,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D9AC8B6F2B4F55C200A2F19E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D9AC8B792B4F55C200A2F19E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D981DC072B50B19400C0B6AC /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				D9AC8B672B4F55C000A2F19E /* ContentView.swift */,
+				D981DC082B50B21B00C0B6AC /* SettingsView.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
 		D9AC8B592B4F55C000A2F19E = {
 			isa = PBXGroup;
 			children = (
 				D9AC8B642B4F55C000A2F19E /* Hike */,
-				D9AC8B752B4F55C200A2F19E /* HikeTests */,
-				D9AC8B7F2B4F55C200A2F19E /* HikeUITests */,
 				D9AC8B632B4F55C000A2F19E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,8 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				D9AC8B622B4F55C000A2F19E /* Hike.app */,
-				D9AC8B722B4F55C200A2F19E /* HikeTests.xctest */,
-				D9AC8B7C2B4F55C200A2F19E /* HikeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +79,11 @@
 			isa = PBXGroup;
 			children = (
 				D9AC8B652B4F55C000A2F19E /* HikeApp.swift */,
-				D9AC8B672B4F55C000A2F19E /* ContentView.swift */,
 				D9AC8B692B4F55C200A2F19E /* Assets.xcassets */,
+				D9AC8B912B4F772800A2F19E /* Component */,
 				D9AC8B6B2B4F55C200A2F19E /* Preview Content */,
+				D981DC072B50B19400C0B6AC /* Screen */,
+				D9AC8B942B4F7ADF00A2F19E /* Utility */,
 			);
 			path = Hike;
 			sourceTree = "<group>";
@@ -110,21 +96,26 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		D9AC8B752B4F55C200A2F19E /* HikeTests */ = {
+		D9AC8B912B4F772800A2F19E /* Component */ = {
 			isa = PBXGroup;
 			children = (
-				D9AC8B762B4F55C200A2F19E /* HikeTests.swift */,
+				D9AC8B8F2B4F75E400A2F19E /* CardView.swift */,
+				D9AC8B922B4F775C00A2F19E /* CustomBackgroundView.swift */,
+				D981DBFF2B50A41F00C0B6AC /* CustomButtonView.swift */,
+				D981DC032B50ABC100C0B6AC /* CustomCircleView.swift */,
+				D981DC052B50AD7500C0B6AC /* MotionAnimationView.swift */,
+				D981DC0A2B50B94600C0B6AC /* CustomListRowView.swift */,
 			);
-			path = HikeTests;
+			path = Component;
 			sourceTree = "<group>";
 		};
-		D9AC8B7F2B4F55C200A2F19E /* HikeUITests */ = {
+		D9AC8B942B4F7ADF00A2F19E /* Utility */ = {
 			isa = PBXGroup;
 			children = (
-				D9AC8B802B4F55C200A2F19E /* HikeUITests.swift */,
-				D9AC8B822B4F55C200A2F19E /* HikeUITestsLaunchTests.swift */,
+				D9AC8B952B4F7B0300A2F19E /* ColorExtension.swift */,
+				D981DC012B50A80700C0B6AC /* ButtonStyle.swift */,
 			);
-			path = HikeUITests;
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,42 +138,6 @@
 			productReference = D9AC8B622B4F55C000A2F19E /* Hike.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D9AC8B712B4F55C200A2F19E /* HikeTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D9AC8B892B4F55C200A2F19E /* Build configuration list for PBXNativeTarget "HikeTests" */;
-			buildPhases = (
-				D9AC8B6E2B4F55C200A2F19E /* Sources */,
-				D9AC8B6F2B4F55C200A2F19E /* Frameworks */,
-				D9AC8B702B4F55C200A2F19E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D9AC8B742B4F55C200A2F19E /* PBXTargetDependency */,
-			);
-			name = HikeTests;
-			productName = HikeTests;
-			productReference = D9AC8B722B4F55C200A2F19E /* HikeTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		D9AC8B7B2B4F55C200A2F19E /* HikeUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D9AC8B8C2B4F55C200A2F19E /* Build configuration list for PBXNativeTarget "HikeUITests" */;
-			buildPhases = (
-				D9AC8B782B4F55C200A2F19E /* Sources */,
-				D9AC8B792B4F55C200A2F19E /* Frameworks */,
-				D9AC8B7A2B4F55C200A2F19E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D9AC8B7E2B4F55C200A2F19E /* PBXTargetDependency */,
-			);
-			name = HikeUITests;
-			productName = HikeUITests;
-			productReference = D9AC8B7C2B4F55C200A2F19E /* HikeUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,14 +150,6 @@
 				TargetAttributes = {
 					D9AC8B612B4F55C000A2F19E = {
 						CreatedOnToolsVersion = 15.1;
-					};
-					D9AC8B712B4F55C200A2F19E = {
-						CreatedOnToolsVersion = 15.1;
-						TestTargetID = D9AC8B612B4F55C000A2F19E;
-					};
-					D9AC8B7B2B4F55C200A2F19E = {
-						CreatedOnToolsVersion = 15.1;
-						TestTargetID = D9AC8B612B4F55C000A2F19E;
 					};
 				};
 			};
@@ -220,8 +167,6 @@
 			projectRoot = "";
 			targets = (
 				D9AC8B612B4F55C000A2F19E /* Hike */,
-				D9AC8B712B4F55C200A2F19E /* HikeTests */,
-				D9AC8B7B2B4F55C200A2F19E /* HikeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -236,20 +181,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D9AC8B702B4F55C200A2F19E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D9AC8B7A2B4F55C200A2F19E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -258,41 +189,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9AC8B682B4F55C000A2F19E /* ContentView.swift in Sources */,
+				D981DC042B50ABC100C0B6AC /* CustomCircleView.swift in Sources */,
+				D981DC0B2B50B94600C0B6AC /* CustomListRowView.swift in Sources */,
+				D9AC8B902B4F75E400A2F19E /* CardView.swift in Sources */,
 				D9AC8B662B4F55C000A2F19E /* HikeApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D9AC8B6E2B4F55C200A2F19E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D9AC8B772B4F55C200A2F19E /* HikeTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D9AC8B782B4F55C200A2F19E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D9AC8B812B4F55C200A2F19E /* HikeUITests.swift in Sources */,
-				D9AC8B832B4F55C200A2F19E /* HikeUITestsLaunchTests.swift in Sources */,
+				D981DC002B50A41F00C0B6AC /* CustomButtonView.swift in Sources */,
+				D981DC092B50B21B00C0B6AC /* SettingsView.swift in Sources */,
+				D9AC8B932B4F775C00A2F19E /* CustomBackgroundView.swift in Sources */,
+				D981DC062B50AD7500C0B6AC /* MotionAnimationView.swift in Sources */,
+				D9AC8B962B4F7B0300A2F19E /* ColorExtension.swift in Sources */,
+				D981DC022B50A80700C0B6AC /* ButtonStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D9AC8B742B4F55C200A2F19E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D9AC8B612B4F55C000A2F19E /* Hike */;
-			targetProxy = D9AC8B732B4F55C200A2F19E /* PBXContainerItemProxy */;
-		};
-		D9AC8B7E2B4F55C200A2F19E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D9AC8B612B4F55C000A2F19E /* Hike */;
-			targetProxy = D9AC8B7D2B4F55C200A2F19E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		D9AC8B842B4F55C200A2F19E /* Debug */ = {
@@ -417,8 +327,10 @@
 		D9AC8B872B4F55C200A2F19E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIcon-Backpack AppIcon-Camera AppIcon-Campfire AppIcon-MagnifyingGlass AppIcon-Map AppIcon-Mushroom";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Hike/Preview Content\"";
@@ -446,8 +358,10 @@
 		D9AC8B882B4F55C200A2F19E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIcon-Backpack AppIcon-Camera AppIcon-Campfire AppIcon-MagnifyingGlass AppIcon-Map AppIcon-Mushroom";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Hike/Preview Content\"";
@@ -472,82 +386,6 @@
 			};
 			name = Release;
 		};
-		D9AC8B8A2B4F55C200A2F19E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = BBG8U9WJ58;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = vctrlima.com.HikeTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hike.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hike";
-			};
-			name = Debug;
-		};
-		D9AC8B8B2B4F55C200A2F19E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = BBG8U9WJ58;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = vctrlima.com.HikeTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hike.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hike";
-			};
-			name = Release;
-		};
-		D9AC8B8D2B4F55C200A2F19E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = BBG8U9WJ58;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = vctrlima.com.HikeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Hike;
-			};
-			name = Debug;
-		};
-		D9AC8B8E2B4F55C200A2F19E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = BBG8U9WJ58;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = vctrlima.com.HikeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Hike;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -565,24 +403,6 @@
 			buildConfigurations = (
 				D9AC8B872B4F55C200A2F19E /* Debug */,
 				D9AC8B882B4F55C200A2F19E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D9AC8B892B4F55C200A2F19E /* Build configuration list for PBXNativeTarget "HikeTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D9AC8B8A2B4F55C200A2F19E /* Debug */,
-				D9AC8B8B2B4F55C200A2F19E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D9AC8B8C2B4F55C200A2F19E /* Build configuration list for PBXNativeTarget "HikeUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D9AC8B8D2B4F55C200A2F19E /* Debug */,
-				D9AC8B8E2B4F55C200A2F19E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
